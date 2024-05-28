@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sewa Mobil Murah</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Link Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <a href="#home" class="logo"> <span style="color: rgb(11, 10, 10)">Rental</span><span style="color: rgb(15, 224, 78)">Yuk</span>. </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Beranda</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Tentang Kami</a>
+            </li>
+
+            <li>
+              <a href="#featured-car" class="navbar-link" data-nav-link>Mulai</a>
+            </li>
+            <li>
+              <a href="#pricing" class="navbar-link" data-nav-link>Paket</a>
+            </li>
+
+            <li>
+              <a href="#reviews" class="navbar-link" data-nav-link>Testimoni</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="header-contact">
+            <a href="tel:88002345678" class="contact-link">081-234-567-891</a>
+
+            <span class="contact-time">Senin - Sabtu: 08.00 - 22.00 WIB</span>
+          </div>
+
+          <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+            <ion-icon name="car-outline"></ion-icon>
+
+            <span id="aria-label-txt">Mulai</span>
+          </a>
+
+          <a href="#" class="btn user-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+          </a>
+
+          <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!--
+        - #HERO
+      -->
+
+        <section class="section hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <h2 class="h1 hero-title">SEWA MOBIL CEPAT GAK PAKE RIBET!</h2>
+
+              <p class="hero-text">Murah,Mudah dan Berkualitas</p>
+            </div>
+
+            <div class="hero-banner"></div>
+            <form action="" class="hero-form" class="">
+              <div class="input-wrapper">
+                <label for="input-1" class="input-label">Mobil, model, atau merek</label>
+
+                <input type="text" name="car-model" id="input-1" class="input-field" placeholder="Mobil apa yang kamu cari?" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="input-2" class="input-label">Tanggal Mulai Pergi</label>
+
+                <input type="date" name="mulai" id="input-2" class="input-field" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="input-2" class="input-label">Tanggal Pulang</label>
+                <input type="date" name="berakhir" id="input-2" class="input-field" />
+              </div>
+
+              <button type="submit" class="btn">Search</button>
+            </form>
+          </div>
+        </section>
+
+        <!-- About Us -->
+        <section class="about" id="about">
+          <div class="container">
+            <div class="tittle-wrapper">Tentang Kami</div>
+            <h1>Best Customer Experiences</h1>
+
+            <div class="about-container">
+              <div class="about-img">
+                <img src="./assets/images/hero1.png" alt="" />
+              </div>
+              <div class="about-text">
+                <span>Tentang Kami</span>
+                <p>
+                  RentalYuk adalah startup yang bergerak di bidang penyewaan mobil, menyediakan solusi transportasi yang fleksibel, efisien, dan ekonomis untuk individu maupun perusahaan. Dengan memanfaatkan teknologi digital, RentalYuk
+                  menawarkan kemudahan akses melalui platform website yang user-friendly, memungkinkan pelanggan untuk melakukan reservasi mobil secara cepat dan aman dengan mengikuti persyaratan dan ketentuan yang ada.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--
+        - #pilihan mobil
+      -->
+
+        <section class="section featured-car" id="featured-car">
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">Pilihan Kendaraan</h2>
+
+              <a href="#" class="featured-car-link">
+                <span>Lebih lanjut</span>
+
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+
+            <ul class="featured-car-list">
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/car-1.png" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300" class="w-100" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Toyota Avanza </a>
+                      </h3>
+
+                      <data class="year" value="2021">2021</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">7 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertamax92</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">6.1km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Manual</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 350.000 <sub>/ Hari</sub></strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton1">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/car-2.png" alt="BMW 3 Series 2019" loading="lazy" width="440" height="300" class="w-100" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Daihatsu Ayla </a>
+                      </h3>
+
+                      <data class="year" value="2019">2019</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">5 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertalite</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">8.2km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 300.000 <sub>/ Hari</sub> </strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton2">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/car-3.png" alt="Ertiga" loading="lazy" width="440" height="300" class="w-100" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Suzuki All New Ertiga </a>
+                      </h3>
+
+                      <data class="year" value="2020">2020</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">7 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertamax</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">5.3km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Manual</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 320.000 <sub>/ Hari</sub> </strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton3">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/car-4.png" alt="Daihatsu All New Xenia                      " loading="lazy" width="440" height="300" class="w-100" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Daihatsu All New Xenia </a>
+                      </h3>
+
+                      <data class="year" value="2020">2020</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">7 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertalite</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">7.7km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Manual</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 350.000 <sub>/ Hari</sub></strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton4">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/car-5.png"
+                      alt="Honda Mobilio
+                      "
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Honda Mobilio </a>
+                      </h3>
+
+                      <data class="year" value="2021">2021</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">6 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertamax</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">7.6km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 300.000 <sub>/ Hari</sub></strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton5">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/car-6.png" alt="Toyota New Rush                      " loading="lazy" width="440" height="300" class="w-100" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Toyota New Rush </a>
+                      </h3>
+
+                      <data class="year" value="2021">2021</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">7 Orang</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Pertalite</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">7.2km / 1-liter</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Manual</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>Rp 450.000 <sub>/ Hari</sub> </strong>
+                      </p>
+
+                      <button class="btn" id="bookingButton6">Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Pricing Paket -->
+        <section class="pricing" id="pricing">
+          <div class="container section-title">
+            <h2>Harga Paketan</h2>
+            <p>Kami hadirkan paket rental mobil dengan harga terjangkau yang sesuai dengan kebutuhan Anda.</p>
+          </div>
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="pricing-item">
+                  <h3>Paket Menengah</h3>
+                  <div class="icon">
+                    <i class="bx bxs-meh"></i>
+                  </div>
+                  <h4><sup>Rp</sup>4jt</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Lorem ipsum dolor sit amet.</span></li>
+                    <li><i class="bx bx-check"></i><span>Layanan driver tersedia untuk kenyamanan Anda.</span></li>
+                    <li><i class="bx bx-check"></i><span>Paket ini berlaku untuk satu unit mobil pilihan Anda.</span></li>
+                  </ul>
+                  <div class="text-center book-btn"><a href="#" class="book-now">Book Now</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="pricing-item featured">
+                  <h3>Paket Ekonomis</h3>
+                  <div class="icon">
+                    <i class="bx bxs-happy"></i>
+                  </div>
+                  <h4><sup>Rp</sup>650.000</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Paket sudah termasuk biaya pemeliharaan dan asuransi kendaraan.</span></li>
+                    <li><i class="bx bx-check"></i><span>Layanan driver tersedia untuk kenyamanan Anda.</span></li>
+                    <li><i class="bx bx-check"></i><span>Paket ini berlaku untuk satu unit mobil pilihan Anda.</span></li>
+                  </ul>
+                  <div class="text-center"><a href="#" class="book-btn" class="book-now">Book Now</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="pricing-item">
+                  <h3>Paket Mewah</h3>
+                  <div class="icon">
+                    <i class="bx bxs-dizzy"></i>
+                  </div>
+                  <h4><sup>Rp</sup>14 jt</h4>
+                  <ul>
+                    <li><i class="bx bx-check"></i><span>Mobil yang Tersedia</span></li>
+                    <li><i class="bx bx-check"></i><span>Layanan driver tersedia untuk kenyamanan Anda.</span></li>
+                    <li><i class="bx bx-check"></i><span>Paket ini berlaku untuk satu unit mobil pilihan Anda.</span></li>
+                  </ul>
+                  <div class="text-center"><a  class="book-btn" class="book-now">Book Now</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--
+        - #Slogan
+      -->
+
+        <section class="section get-start">
+          <div class="container">
+            <h2 class="h2 section-title">Mengapa Harus menggunakan Jasa Kami?</h2>
+
+            <ul class="get-start-list">
+              <li>
+                <div class="get-start-card">
+                  <div class="card-icon icon-1">
+                    <ion-icon name="build-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Prima</h3>
+
+                  <p class="card-text">Mobil Dalam Kondisi Selalu Prima untuk digunakan perjalanan.</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="get-start-card">
+                  <div class="card-icon icon-2">
+                    <ion-icon name="car-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Banyak Pilihan</h3>
+
+                  <p class="card-text">Kami Menyediakan banyak Pilihan dan Tipe Mobil untuk digunakan perjalanan</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="get-start-card">
+                  <div class="card-icon icon-3">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Driver</h3>
+
+                  <p class="card-text">Kami Juga menyediakan Driver jika Anda ingin menggunakan Jasa Driver sekaligus</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="get-start-card">
+                  <div class="card-icon icon-4">
+                    <ion-icon name="card-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="card-title">Biaya</h3>
+
+                  <p class="card-text">Biaya penyewaaan Kendaraan disini tentunya lebih terjangkau</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Review -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Testimoni</h2>
+        <h2>Whats Our Customer Say</h2>
+      </div>
+      <div class="reviews-container">
+        <div class="box">
+          <div class="rev-img">
+            <img src="./assets/images/rev1-1.jpeg" alt="" />
+          </div>
+          <h2>Alexander Syarifuddin</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            "RentalYuk sungguh memudahkan perjalanan saya. Layanan mereka sangat cepat dan responsif. Saya sangat senang dengan mobil yang disediakan dan harga yang terjangkau. Pasti akan merekomendasikan RentalYuk kepada teman dan
+            keluarga!"
+          </p>
+        </div>
+        <div class="box">
+          <div class="rev-img">
+            <img src="./assets/images/rev1-2.jpeg" alt="" />
+          </div>
+          <h2>Thomas Sihombing</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "Ketika saya membutuhkan mobil untuk keperluan bisnis saya, RentalYuk adalah pilihan yang tepat. Mereka menyediakan layanan yang sangat profesional, dengan armada mobil yang berkualitas dan driver yang ramah. Terima kasih
+            RentalYuk!"
+          </p>
+        </div>
+        <div class="box">
+          <div class="rev-img">
+            <img src="./assets/images/rev1-3.jpeg" alt="" />
+          </div>
+          <h2>Arjuna Sitepu</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>"Dengan RentalYuk, saya bisa bepergian dengan nyaman dan tanpa stres. Proses reservasi sangat mudah dan cepat, dan mobil yang disediakan selalu dalam kondisi prima. Saya sangat puas dengan layanan mereka. Bravo RentalYuk!"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class=" container contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Butuh bantuan atau informasi lebih lanjut? Jangan ragu untuk menghubungi kami!</p>
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.386139140686!2d98.57727379866155!3d3.4977330000000166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031242c46c7f231%3A0x4f2df6e63db47555!2sJl.%20Lap.%20Golf%20No.157%2C%20Kp.%20Tengah%2C%20Kec.%20Pancur%20Batu%2C%20Kabupaten%20Deli%20Serdang%2C%20Sumatera%20Utara%2020353!5e0!3m2!1sid!2sid!4v1713964677859!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map"
+          ></iframe>
+          
+          <form action="">
+            <div class="input-group">
+              <i data-feather="user"></i>
+              <input type="text" placeholder="Nama">
+            </div>
+            <div class="input-group">
+              <i data-feather="mail"></i>
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <i data-feather="message"></i>
+              <textarea placeholder="Pesan"></textarea>
+            </div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+          </form>
+          
+  
+        </div>
+      </section>
+      </div>
+    </section>
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="./assets/images/hero1.png" alt="Ridex logo" style="width: 30%; margin-bottom: 30px; border-radius: 50%" />
+            <p class="footer-text">Solusi atas semua kebutuhan transportasi dalam perjalanan wisata atupun bisnis anda di seluruh kota kota besar di indonesia</p>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Support</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">QA</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & conditions</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Alamat Kantor</p>
+              <br />
+              <p class="footer-text">JLN KOMP CIGANITRI jln bintang perkasa no 04 rt05/rw02 , Kabupaten Bandung, Jawa Barat, Indonesia</p>
+            </li>
+            <li>
+              <p class="footer-list-title">
+                Whatsapp <br />
+                081-234-567-891
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            &copy; 2024
+            <a href="https://sepeledev.000webhostapp.com/">Kelompok 12</a>. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
